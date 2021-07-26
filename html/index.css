@@ -1,0 +1,1079 @@
+
+
+body {
+    margin: 0;
+    /* font-size: 28px; */
+    font-family: "system-ui"; 
+    /* vertical-align: center; */
+    background: rgba(0, 0, 0, 0.7);
+    /* padding-bottom: 0px;  */
+}
+
+div.header{
+    background-image: url('./images/Backgrounds/asphalt2.JPG');
+    /* background-clip: content-box; */
+    /* box-sizing: content-box; */
+    /* isolation: isolate; */
+    /* height:2vw; */
+    font-weight: bold;
+    border: 0%;
+    margin: 0%;
+    text-align: center;
+    vertical-align: center;
+    font-size: 4vw;
+    color: rgb(253, 254, 255);
+    overflow:auto; 
+    }
+
+@media screen and (min-width: 1920px) {
+    p {
+ font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    a {
+ font-size: 36px;
+    }
+}
+
+header {
+}
+
+body {
+    z-index: 1;
+}
+
+div#navbar {
+    /* position:absolute; */
+    z-index:2;
+    overflow-y:hidden;
+    background-image: linear-gradient(rgb(80, 80, 80),rgb(8, 8, 8));
+}
+
+div#navbar a {
+    /* display: inline;
+    height: 100%;
+    font-size:1.8vw;
+    padding: 0px 0.5vw;
+    text-decoration: none;
+    
+    isolation: isolate;
+    transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s; */
+    float: left;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75vw 1.5vw;
+    text-decoration: none;
+    font-size: 100%;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+    transition: .5s;
+}
+
+div#navbar a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+div#navbar a.active {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+#centeredmenu {
+    clear:both;
+    min-width: 220px;
+    margin: auto;
+ }
+
+#SLIDE_BG {
+    width: 100%;
+    height: auto;
+    overflow:auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 18s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+
+}
+@keyframes slideBg {
+    0% {
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+    }
+    20% {
+        background-image: url('./images/Backgrounds/Slideshow/Concrete2.JPG');
+    }
+    40% {
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy1.JPG');
+    }
+    60% {
+        background-image: url('./images/Backgrounds/Slideshow/Concrete3.JPG');
+    }
+    80% {
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy3.JPG');
+    }
+    100% {
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+    }
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+
+
+
+#SLIDE_BAA1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBaa1 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+}
+@keyframes slideBaa1 {
+    0% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+}
+
+#SLIDE_BAA2 {
+    /* max-width:100%;
+    max-height:100%; */
+    width: 100%;
+    height: 200vh;
+    background: black;
+    overflow:auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBaa2 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+}
+@keyframes slideBaa2 {
+    0% {
+        background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Asphalt2/2.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+    }
+}
+
+#SLIDE_BAC1 {
+    min-width: 100%;
+    max-width: none;
+    height: 100vh;
+    background: black;
+    overflow:auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+}
+@keyframes slideBac1 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete2/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    }
+}
+
+#SLIDE_BAC2 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac2 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+}
+@keyframes slideBac2 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete2/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    }
+}
+
+#SLIDE_BAC3 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac3 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+}
+@keyframes slideBac3 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete4/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+    }
+}
+
+#SLIDE_BAC4 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac4 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+}
+@keyframes slideBac4 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete5/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+    }
+}
+
+#SLIDE_BAC5 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac5 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+}
+@keyframes slideBac5 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete6/2get3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+    }
+}
+
+#SLIDE_BAC6 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac6 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+}
+@keyframes slideBac6 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Concrete7/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+    }
+}
+
+#SLIDE_BAC7 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac7 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+}
+@keyframes slideBac7 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Concrete8/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Concrete8/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+    }
+}
+
+#SLIDE_BAC8 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac8 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+}
+@keyframes slideBac8 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Concrete9/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Concrete9/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+    }
+}
+
+#SLIDE_BAC9 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBac9 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+}
+@keyframes slideBac9 {
+    0% {
+    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Concrete10/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Concrete10/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+    }
+}
+
+#SLIDE_BACC1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacc1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Curb1/1.JPG');
+}
+@keyframes slideBacc1 {
+    0% {
+    background-image: url('./images/Slideshows/Curb1/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Curb1/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Curb1/1.JPG');
+    }
+}
+
+#SLIDE_BACC2 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacc2 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Curb2/1.JPG');
+}
+@keyframes slideBacc2 {
+    0% {
+    background-image: url('./images/Slideshows/Curb2/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Curb2/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Curb2/1.JPG');
+    }
+}
+
+#SLIDE_BACC3 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacc3 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Curb3/1.JPG');
+}
+@keyframes slideBacc3 {
+    0% {
+    background-image: url('./images/Slideshows/Curb3/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Curb3/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Curb3/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Curb3/1.JPG');
+    }
+}
+
+#SLIDE_BACD1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacd1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+}
+@keyframes slideBacd1 {
+    0% {
+    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Driveway1/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+    }
+}
+
+#SLIDE_BACDC1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacdc1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+}
+@keyframes slideBacdc1 {
+    0% {
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/DrivewayCrack1/2v.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/DrivewayCrack1/3v.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+    }
+}
+
+
+/* 6 3 4 3 3 3 3 */
+#SLIDE_BAE1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+}
+@keyframes slideBae1 {
+    0% {
+        /* background-image: url('./images/Driveway\ Crack\ Before\ After/1v.JPG'); */
+        background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+    }
+    16.6% {
+        background-image: url('./images/Slideshows/Epoxy1/2.JPG');
+    }
+    33.3% {
+        background-image: url('./images/Slideshows/Epoxy1/3.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Epoxy1/4.JPG');
+    }
+    66.6% {
+        background-image: url('./images/Slideshows/Epoxy1/5.JPG');
+    }
+    83.3% {
+        background-image: url('./images/Slideshows/Epoxy1/6.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+    }
+}
+
+#SLIDE_BAE2 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBa1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+}
+@keyframes slideBae2 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Epoxy2/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Epoxy2/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+    }
+}
+
+#SLIDE_BAE3 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae3 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+}
+@keyframes slideBae3 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+    }
+    25% {
+    background-image: url('./images/Slideshows/Epoxy3/2.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/Epoxy3/3.JPG');
+    }
+    75% {
+    background-image: url('./images/Slideshows/Epoxy3/4.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+    }
+}
+
+#SLIDE_BAE4 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae4 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+}
+@keyframes slideBae4 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Epoxy4/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Epoxy4/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+    }
+}
+
+#SLIDE_BAE5 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae5 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+}
+@keyframes slideBae5 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Epoxy5/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Epoxy5/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+    }
+}
+
+#SLIDE_BAE6 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae6 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+}
+@keyframes slideBae6 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Epoxy6/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Epoxy6/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+    }
+}
+
+#SLIDE_BAE7 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBae7 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+}
+@keyframes slideBae7 {
+    0% {
+    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+    }
+    33.3% {
+    background-image: url('./images/Slideshows/Epoxy7/2.JPG');
+    }
+    66.6% {
+    background-image: url('./images/Slideshows/Epoxy7/3.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+    }
+}
+
+#SLIDE_BACD1 {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBacd1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+}
+@keyframes slideBacd1 {
+    0% {
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    }
+    50% {
+    background-image: url('./images/Slideshows/SidewalkCrack1/2.JPG');
+    }
+    100% {
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    }
+}
+
+
+/* #SLIDE_BA5 {
+    width: 100%;
+    rotate: 270;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBa1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+}
+@keyframes slideBa5{
+    0% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+}
+
+#SLIDE_BA6 {
+    width: 100%;
+    rotate: 270;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBa1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+}
+
+@keyframes slideBa6{
+    0% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+}
+
+#SLIDE_BA7 {
+    width: 100%;
+    rotate: 270;
+    height: 100vh;
+    background: black;
+    overflow:hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBa1 5s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+}
+@keyframes slideBa7 {
+    0% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    50% {
+        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+    100% {
+        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    }
+} */
+
+/* page content */
+.content {
+    /* display:flex;
+    justify-content: center; */
+    
+    /* padding: 100px; */
+    padding-top: 0.5vh;
+    padding-bottom: 4vh;
+    max-width: 80%;
+    width: 80%;
+    overflow: auto;
+    height:100%;
+    margin-right:auto;
+    margin-left:auto;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(255, 255, 255, 0.5);
+}
+
+p {
+    /* padding: 10px; */
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 95%;
+    align-content: center;
+    margin: auto;
+} 
+  
+.fullBoxBold{
+    text-align: center;
+    
+    font-size: 4vw;
+
+    width: 85%;
+    height: auto;
+    font-weight: bold;
+}
+
+.fullBox{
+    width:85%;
+    font-size: 2vw;
+    height:auto;
+    text-align: left;
+    /* float:left; */
+}
+
+.emptyBox{
+    width:100%;
+    height:600px;
+    align-content:center;
+    float:left;
+}
+
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+}
+
+.half {
+    left: 0%;
+}
+/* 
+.scroller {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 40px;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+} */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content + body {
+    padding-top: 0px;
+}
+
+
+
+/* .rotate {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 88px;
+} */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    /* IE 9 */
+    /* -ms-transform: rotate(270deg);  */
+
+    /* Chrome, Safari, Opera */
+    /* -webkit-transform: rotate(270deg);  */
+
+    /* transform: rotate(270deg); */
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+}
+#container .row {
+    /* Access rows */
+}
+#container .row .col {
+    float: left;
+    width: 48%;
+}
+/* Equivalent of #column-1*/
+#container .row .col.column-1 {
+    text-align: center;
+    font-size: 4vw;
+    width: 40%;
+    height: auto;
+    /* float: left; */
+    font-weight: bold;
+    /* float:inline-start; */
+}
+/* Equivalent of #column-2 */
+#container .row .col.column-2 {
+    width:40%;
+    font-size: 2vw;
+    height:auto;
+    /* float: left; */
+    text-align: left;
+    /* float:inline-start; */
+    /* float:left; */
+}
