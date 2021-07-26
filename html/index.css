@@ -10,7 +10,7 @@ body {
 }
 
 div.header{
-    background-image: url('./images/Backgrounds/asphalt2.JPG');
+    background-image: url('./images/Backgrounds/asphalt2.jpg');
     /* background-clip: content-box; */
     /* box-sizing: content-box; */
     /* isolation: isolate; */
@@ -106,27 +106,27 @@ div#navbar a.active {
     backface-visibility: hidden;
     animation: slideBg 18s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+    background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
 
 }
 @keyframes slideBg {
     0% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
     }
     20% {
-        background-image: url('./images/Backgrounds/Slideshow/Concrete2.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Concrete2.jpg');
     }
     40% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy1.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy1.jpg');
     }
     60% {
-        background-image: url('./images/Backgrounds/Slideshow/Concrete3.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Concrete3.jpg');
     }
     80% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy3.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy3.jpg');
     }
     100% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.JPG');
+        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
     }
 }
 
@@ -165,17 +165,17 @@ img {
     backface-visibility: hidden;
     animation: slideBaa1 10s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
 }
 @keyframes slideBaa1 {
     0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
 }
 
@@ -192,17 +192,17 @@ img {
     backface-visibility: hidden;
     animation: slideBaa2 10s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+    background-image: url('./images/Slideshows/Asphalt2/1.jpg');
 }
 @keyframes slideBaa2 {
     0% {
-        background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt2/1.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Asphalt2/2.JPG');
+        background-image: url('./images/Slideshows/Asphalt2/2.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt2/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt2/1.jpg');
     }
 }
 
@@ -218,17 +218,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
 }
 @keyframes slideBac1 {
     0% {
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete2/2.JPG');
+    background-image: url('./images/Slideshows/Concrete2/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
     }
 }
 
@@ -243,17 +243,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac2 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
 }
 @keyframes slideBac2 {
     0% {
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete2/2.JPG');
+    background-image: url('./images/Slideshows/Concrete2/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete2/1.JPG');
+    background-image: url('./images/Slideshows/Concrete2/1.jpg');
     }
 }
 
@@ -268,17 +268,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac3 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+    background-image: url('./images/Slideshows/Concrete4/1.jpg');
 }
 @keyframes slideBac3 {
     0% {
-    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+    background-image: url('./images/Slideshows/Concrete4/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete4/2.JPG');
+    background-image: url('./images/Slideshows/Concrete4/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete4/1.JPG');
+    background-image: url('./images/Slideshows/Concrete4/1.jpg');
     }
 }
 
@@ -293,17 +293,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac4 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+    background-image: url('./images/Slideshows/Concrete5/1.jpg');
 }
 @keyframes slideBac4 {
     0% {
-    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+    background-image: url('./images/Slideshows/Concrete5/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete5/2.JPG');
+    background-image: url('./images/Slideshows/Concrete5/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete5/1.JPG');
+    background-image: url('./images/Slideshows/Concrete5/1.jpg');
     }
 }
 
@@ -318,17 +318,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac5 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+    background-image: url('./images/Slideshows/Concrete6/1.jpg');
 }
 @keyframes slideBac5 {
     0% {
-    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+    background-image: url('./images/Slideshows/Concrete6/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete6/2get3.JPG');
+    background-image: url('./images/Slideshows/Concrete6/2get3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete6/1.JPG');
+    background-image: url('./images/Slideshows/Concrete6/1.jpg');
     }
 }
 
@@ -343,17 +343,17 @@ img {
     backface-visibility: hidden;
     animation: slideBac6 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+    background-image: url('./images/Slideshows/Concrete7/1.jpg');
 }
 @keyframes slideBac6 {
     0% {
-    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+    background-image: url('./images/Slideshows/Concrete7/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Concrete7/2.JPG');
+    background-image: url('./images/Slideshows/Concrete7/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete7/1.JPG');
+    background-image: url('./images/Slideshows/Concrete7/1.jpg');
     }
 }
 
@@ -368,20 +368,20 @@ img {
     backface-visibility: hidden;
     animation: slideBac7 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+    background-image: url('./images/Slideshows/Concrete8/1.jpg');
 }
 @keyframes slideBac7 {
     0% {
-    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+    background-image: url('./images/Slideshows/Concrete8/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Concrete8/2.JPG');
+    background-image: url('./images/Slideshows/Concrete8/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Concrete8/3.JPG');
+    background-image: url('./images/Slideshows/Concrete8/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete8/1.JPG');
+    background-image: url('./images/Slideshows/Concrete8/1.jpg');
     }
 }
 
@@ -396,20 +396,20 @@ img {
     backface-visibility: hidden;
     animation: slideBac8 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+    background-image: url('./images/Slideshows/Concrete9/1.jpg');
 }
 @keyframes slideBac8 {
     0% {
-    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+    background-image: url('./images/Slideshows/Concrete9/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Concrete9/2.JPG');
+    background-image: url('./images/Slideshows/Concrete9/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Concrete9/3.JPG');
+    background-image: url('./images/Slideshows/Concrete9/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete9/1.JPG');
+    background-image: url('./images/Slideshows/Concrete9/1.jpg');
     }
 }
 
@@ -424,20 +424,20 @@ img {
     backface-visibility: hidden;
     animation: slideBac9 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+    background-image: url('./images/Slideshows/Concrete10/1.jpg');
 }
 @keyframes slideBac9 {
     0% {
-    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+    background-image: url('./images/Slideshows/Concrete10/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Concrete10/2.JPG');
+    background-image: url('./images/Slideshows/Concrete10/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Concrete10/3.JPG');
+    background-image: url('./images/Slideshows/Concrete10/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Concrete10/1.JPG');
+    background-image: url('./images/Slideshows/Concrete10/1.jpg');
     }
 }
 
@@ -452,17 +452,17 @@ img {
     backface-visibility: hidden;
     animation: slideBacc1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb1/1.JPG');
+    background-image: url('./images/Slideshows/Curb1/1.jpg');
 }
 @keyframes slideBacc1 {
     0% {
-    background-image: url('./images/Slideshows/Curb1/1.JPG');
+    background-image: url('./images/Slideshows/Curb1/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Curb1/2.JPG');
+    background-image: url('./images/Slideshows/Curb1/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Curb1/1.JPG');
+    background-image: url('./images/Slideshows/Curb1/1.jpg');
     }
 }
 
@@ -477,17 +477,17 @@ img {
     backface-visibility: hidden;
     animation: slideBacc2 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb2/1.JPG');
+    background-image: url('./images/Slideshows/Curb2/1.jpg');
 }
 @keyframes slideBacc2 {
     0% {
-    background-image: url('./images/Slideshows/Curb2/1.JPG');
+    background-image: url('./images/Slideshows/Curb2/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Curb2/2.JPG');
+    background-image: url('./images/Slideshows/Curb2/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Curb2/1.JPG');
+    background-image: url('./images/Slideshows/Curb2/1.jpg');
     }
 }
 
@@ -502,20 +502,20 @@ img {
     backface-visibility: hidden;
     animation: slideBacc3 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb3/1.JPG');
+    background-image: url('./images/Slideshows/Curb3/1.jpg');
 }
 @keyframes slideBacc3 {
     0% {
-    background-image: url('./images/Slideshows/Curb3/1.JPG');
+    background-image: url('./images/Slideshows/Curb3/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Curb3/2.JPG');
+    background-image: url('./images/Slideshows/Curb3/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Curb3/3.JPG');
+    background-image: url('./images/Slideshows/Curb3/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Curb3/1.JPG');
+    background-image: url('./images/Slideshows/Curb3/1.jpg');
     }
 }
 
@@ -530,17 +530,17 @@ img {
     backface-visibility: hidden;
     animation: slideBacd1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+    background-image: url('./images/Slideshows/Driveway1/1.jpg');
 }
 @keyframes slideBacd1 {
     0% {
-    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+    background-image: url('./images/Slideshows/Driveway1/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Driveway1/2.JPG');
+    background-image: url('./images/Slideshows/Driveway1/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Driveway1/1.JPG');
+    background-image: url('./images/Slideshows/Driveway1/1.jpg');
     }
 }
 
@@ -555,20 +555,20 @@ img {
     backface-visibility: hidden;
     animation: slideBacdc1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
 }
 @keyframes slideBacdc1 {
     0% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/2v.JPG');
+    background-image: url('./images/Slideshows/DrivewayCrack1/2v.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/3v.JPG');
+    background-image: url('./images/Slideshows/DrivewayCrack1/3v.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.JPG');
+    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
     }
 }
 
@@ -585,30 +585,30 @@ img {
     backface-visibility: hidden;
     animation: slideBae1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy1/1.jpg');
 }
 @keyframes slideBae1 {
     0% {
-        /* background-image: url('./images/Driveway\ Crack\ Before\ After/1v.JPG'); */
-        background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+        /* background-image: url('./images/Driveway\ Crack\ Before\ After/1v.jpg'); */
+        background-image: url('./images/Slideshows/Epoxy1/1.jpg');
     }
     16.6% {
-        background-image: url('./images/Slideshows/Epoxy1/2.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/2.jpg');
     }
     33.3% {
-        background-image: url('./images/Slideshows/Epoxy1/3.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/3.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Epoxy1/4.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/4.jpg');
     }
     66.6% {
-        background-image: url('./images/Slideshows/Epoxy1/5.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/5.jpg');
     }
     83.3% {
-        background-image: url('./images/Slideshows/Epoxy1/6.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/6.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Epoxy1/1.JPG');
+        background-image: url('./images/Slideshows/Epoxy1/1.jpg');
     }
 }
 
@@ -623,20 +623,20 @@ img {
     backface-visibility: hidden;
     animation: slideBa1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
 }
 @keyframes slideBae2 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Epoxy2/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy2/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Epoxy2/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy2/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy2/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
     }
 }
 
@@ -651,23 +651,23 @@ img {
     backface-visibility: hidden;
     animation: slideBae3 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
 }
 @keyframes slideBae3 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
     }
     25% {
-    background-image: url('./images/Slideshows/Epoxy3/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/2.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/Epoxy3/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/3.jpg');
     }
     75% {
-    background-image: url('./images/Slideshows/Epoxy3/4.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/4.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy3/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
     }
 }
 
@@ -682,20 +682,20 @@ img {
     backface-visibility: hidden;
     animation: slideBae4 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
 }
 @keyframes slideBae4 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Epoxy4/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy4/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Epoxy4/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy4/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy4/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
     }
 }
 
@@ -710,20 +710,20 @@ img {
     backface-visibility: hidden;
     animation: slideBae5 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
 }
 @keyframes slideBae5 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Epoxy5/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy5/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Epoxy5/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy5/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy5/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
     }
 }
 
@@ -738,20 +738,20 @@ img {
     backface-visibility: hidden;
     animation: slideBae6 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
 }
 @keyframes slideBae6 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Epoxy6/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy6/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Epoxy6/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy6/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy6/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
     }
 }
 
@@ -766,20 +766,20 @@ img {
     backface-visibility: hidden;
     animation: slideBae7 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
 }
 @keyframes slideBae7 {
     0% {
-    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
     }
     33.3% {
-    background-image: url('./images/Slideshows/Epoxy7/2.JPG');
+    background-image: url('./images/Slideshows/Epoxy7/2.jpg');
     }
     66.6% {
-    background-image: url('./images/Slideshows/Epoxy7/3.JPG');
+    background-image: url('./images/Slideshows/Epoxy7/3.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/Epoxy7/1.JPG');
+    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
     }
 }
 
@@ -794,17 +794,17 @@ img {
     backface-visibility: hidden;
     animation: slideBacd1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
 }
 @keyframes slideBacd1 {
     0% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
     }
     50% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/2.JPG');
+    background-image: url('./images/Slideshows/SidewalkCrack1/2.jpg');
     }
     100% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
     }
 }
 
@@ -821,26 +821,26 @@ img {
     backface-visibility: hidden;
     animation: slideBa1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.JPG');
+    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
 }
 @keyframes slideBa5{
     0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
 }
 
@@ -856,30 +856,30 @@ img {
     backface-visibility: hidden;
     animation: slideBa1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
 }
 
 @keyframes slideBa6{
     0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
 }
 
@@ -895,32 +895,32 @@ img {
     backface-visibility: hidden;
     animation: slideBa1 5s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
 }
 @keyframes slideBa7 {
     0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
     100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.JPG');
+        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
     }
 } */
 

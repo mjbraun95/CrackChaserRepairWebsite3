@@ -13,23 +13,6 @@
             }
         </style>
 
-        
-        <img src="./images/Backgrounds/asphalt2.JPG" style="height:80vh; width:auto;">
-        <div class="content" style="margin-top:20px; "> 
-            <div class="slideshow-container">
-                <div class="mySlides1" style="text-align: center;">
-                    <img src="./images/Slideshows/Asphalt1/1.JPG" style="height:80vh; width:auto;">
-                </div>
-
-                <div class="mySlides1" style="text-align: center;">
-                    <img src="./images/Slideshows/Asphalt1/2.JPG" style="height:80vh; width:auto;">
-                </div>
-                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-            </div>
-        </div>
-
-
         <div id="SLIDE_BG">
             <div class="content">
                 <p class="fullBoxBold">   
