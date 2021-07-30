@@ -53,13 +53,13 @@ jQuery.fn.center = function() {
 
         <div class="content"> 
             <div class="row">
-                <div class="column3">
+                <div class="column2">
                     <img src="./images/Slideshows/Curb3/1.jpg" style="width:100%">
                 </div>
-                <div class="column3">
+                <!-- <div class="column3">
                     <img src="./images/Slideshows/Curb3/2.jpg" style="width:100%">
-                </div>
-                <div class="column3">
+                </div> -->
+                <div class="column2">
                     <img src="./images/Slideshows/Curb3/3.jpg" style="width:100%">
                 </div>
             </div> 
