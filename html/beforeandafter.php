@@ -53,138 +53,129 @@ jQuery.fn.center = function() {
 
         <div class="content"> 
             <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Asphalt1/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Asphalt1/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete2/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete2/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete4/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete4/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete7/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Concrete7/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Curb1/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Curb1/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Curb2/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Curb2/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
                 <div class="column3">
-                    <img src="./images/Slideshows/Curb3/1.jpg" alt="Snow" style="width:100%">
+                    <img src="./images/Slideshows/Curb3/1.jpg" style="width:100%">
                 </div>
                 <div class="column3">
-                    <img src="./images/Slideshows/Curb3/2.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Curb3/2.jpg" style="width:100%">
                 </div>
                 <div class="column3">
-                    <img src="./images/Slideshows/Curb3/3.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Driveway1/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Driveway1/2.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column3">
-                    <img src="./images/Slideshows/DrivewayCrack1/1v.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column3">
-                    <img src="./images/Slideshows/DrivewayCrack1/2v.jpg" alt="Forest" style="width:100%">
-                </div>
-                <div class="column3">
-                    <img src="./images/Slideshows/DrivewayCrack1/3v.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Epoxy1/4.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Epoxy1/6.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column3">
-                    <img src="./images/Slideshows/Epoxy2/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column3">
-                    <img src="./images/Slideshows/Epoxy2/2.jpg" alt="Forest" style="width:100%">
-                </div>
-                <div class="column3">
-                    <img src="./images/Slideshows/Epoxy2/3.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Curb3/3.jpg" style="width:100%">
                 </div>
             </div> 
             <div class="row">
                 <div class="column4">
-                    <img src="./images/Slideshows/Epoxy3/1.jpg" alt="Snow" style="width:100%">
+                    <img src="./images/Slideshows/Epoxy3/1.jpg" style="width:100%">
                 </div>
                 <div class="column4">
-                    <img src="./images/Slideshows/Epoxy3/2.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Epoxy3/2.jpg" style="width:100%">
                 </div>
                 <div class="column4">
-                    <img src="./images/Slideshows/Epoxy3/3.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Epoxy3/3.jpg" style="width:100%">
                 </div>
                 <div class="column4">
-                    <img src="./images/Slideshows/Epoxy3/4.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Epoxy3/4.jpg" style="width:100%">
                 </div>
             </div> 
             <div class="row">
                 <div class="column2">
-                    <img src="./images/Slideshows/Epoxy4/2.jpg" alt="Snow" style="width:100%">
+                    <img src="./images/Slideshows/Driveway1/1.jpg" style="width:100%">
                 </div>
                 <div class="column2">
-                    <img src="./images/Slideshows/Epoxy4/3.jpg" alt="Forest" style="width:100%">
-                </div>
-            </div> 
-            <div class="row">
-                <div class="column2">
-                    <img src="./images/Slideshows/Epoxy7/1.jpg" alt="Snow" style="width:100%">
-                </div>
-                <div class="column2">
-                    <img src="./images/Slideshows/Epoxy7/2.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Driveway1/2.jpg" style="width:100%">
                 </div>
             </div> 
             <div class="row">
                 <div class="column2">
-                    <img src="./images/Slideshows/SidewalkCrack1/1.jpg" alt="Snow" style="width:100%">
+                    <img src="./images/Slideshows/Asphalt1/1.jpg" style="width:100%">
                 </div>
                 <div class="column2">
-                    <img src="./images/Slideshows/SidewalkCrack1/2.jpg" alt="Forest" style="width:100%">
+                    <img src="./images/Slideshows/Asphalt1/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column3">
+                    <img src="./images/Slideshows/DrivewayCrack1/1v.jpg" style="width:100%">
+                </div>
+                <div class="column3">
+                    <img src="./images/Slideshows/DrivewayCrack1/2v.jpg" style="width:100%">
+                </div>
+                <div class="column3">
+                    <img src="./images/Slideshows/DrivewayCrack1/3v.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy1/4.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy1/6.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Curb1/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Curb1/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete7/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete7/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Curb2/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Curb2/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            
+        
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy4/2.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy4/3.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete2/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete2/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete4/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Concrete4/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy7/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/Epoxy7/2.jpg" style="width:100%">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="column2">
+                    <img src="./images/Slideshows/SidewalkCrack1/1.jpg" style="width:100%">
+                </div>
+                <div class="column2">
+                    <img src="./images/Slideshows/SidewalkCrack1/2.jpg" style="width:100%">
                 </div>
             </div> 
         </div>
