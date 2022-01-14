@@ -9,8 +9,8 @@
 <div class="content">
     <p>
         Email: <a href="mailto:crackchaserrepair@gmail.com" style="color: #0099ff;">crackchaserrepair@gmail.com</a>
-        <br>Larry Braun - Owner:    (780)-699-1869
-        <br>Susan Braun - Accounting:    (780)-699-3143
+        <br>Larry - Owner:    (780)-699-1869
+        <br>Susan - Accounting:    (780)-699-3143
     </p>
 </div>         
 </body>

@@ -11,6 +11,7 @@ body {
 
 div.header{
     background-image: url('./images/Backgrounds/asphalt2.jpg');
+    background-size: cover;
     /* background-clip: content-box; */
     /* box-sizing: content-box; */
     /* isolation: isolate; */
@@ -48,7 +49,7 @@ div#navbar {
     /* position:absolute; */
     z-index:2;
     overflow-y:hidden;
-    background-image: linear-gradient(rgb(80, 80, 80),rgb(8, 8, 8));
+    background-image: linear-gradient(rgb(56, 56, 56),rgb(8, 8, 8));
 }
 
 div#navbar a {
