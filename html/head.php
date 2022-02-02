@@ -5,7 +5,7 @@
     <head>
         <title><?php echo($title); ?></title>
         <link rel="stylesheet" href="index.css">
-        <div class="header">
+        <div class="header" style="font-family: Rockwell Extra Bold">
             Crack Chaser Repair Solutions
         </div>
     </head>
