@@ -58,11 +58,13 @@
     }
 
     .title-text {
-        font-size: 48px; /* Adjust the size to match your screenshot */
-        color: #DDDDDD; /* or the exact color from the screenshot */
-        margin-bottom: 20px; /* Spacing between title and subtitle */
-        /* Additional font properties like font-family, weight, etc., can be added here */
+        font-size: 3em; /* Increased font size for title-like appearance */
+        font-weight: bold; /* Make it bold */
+        color: #ddd;
+        text-align: center;
+        max-width: 30%;
     }
+
 
     .subtitle-text {
         font-size: 24px; /* Adjust the size to match your screenshot */

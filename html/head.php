@@ -5,8 +5,10 @@
     <head>
         <title><?php echo($title); ?></title>
         <link rel="stylesheet" href="index.css">
+        <!-- Remove the following div or comment it out
         <div class="header" style="font-family: Rockwell Extra Bold">
             Crack Chaser Repair Solutions
         </div>
+        -->
     </head>
-        <body>
+    <body>
