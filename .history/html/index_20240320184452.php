@@ -19,14 +19,13 @@
 
     .title-text {
         font-size: 2em;
-        color: #ddd;
+        color: #fff;
         text-align: center;
-        max-width: 30%;
     }
 
     .content {
         text-align: center;
-        padding: 50px 20px;
+        padding: 1000px 20px;
         margin: auto;
     }
 
@@ -43,46 +42,9 @@
 
 <div class="background-image-container">
     <div class="title-text">
-        Asphalt Fusion Technology <br><br>
-        More Eco-Friendly & Carbon Friendly
+        Professional Asphalt, Concrete, and Epoxy Floor Services
     </div>
 </div>
-
-<style>
-    .background-image-container {
-        /* Your styles for the background */
-        padding-top: 250px;
-        padding-bottom: 250px;
-        text-align: center;
-        position: relative; /* for absolute positioning of child elements */
-    }
-
-    .title-text {
-        font-size: 48px; /* Adjust the size to match your screenshot */
-        color: #DDDDDD; /* or the exact color from the screenshot */
-        margin-bottom: 20px; /* Spacing between title and subtitle */
-        /* Additional font properties like font-family, weight, etc., can be added here */
-    }
-
-    .subtitle-text {
-        font-size: 24px; /* Adjust the size to match your screenshot */
-        color: #FFFFFF; /* or the exact color from the screenshot */
-        margin-bottom: 30px; /* Spacing between subtitle and button */
-        /* Additional font properties like font-family, weight, etc., can be added here */
-    }
-
-    .find-out-more-button {
-        background-color: #FF0000; /* Adjust color to match your screenshot */
-        color: #FFFFFF; /* Button text color */
-        padding: 12px 24px; /* Button padding, adjust as needed */
-        font-size: 18px; /* Adjust the size to match your screenshot */
-        text-decoration: none; /* Remove underline from links */
-        border: none; /* Remove border */
-        cursor: pointer; /* Cursor to pointer to signify it's a clickable button */
-        /* Add any additional button styling like border-radius or box-shadow if needed */
-    }
-</style>
-
 
 <div class="content">
     <p class="fullBox">

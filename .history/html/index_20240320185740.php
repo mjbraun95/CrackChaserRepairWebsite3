@@ -19,9 +19,8 @@
 
     .title-text {
         font-size: 2em;
-        color: #ddd;
+        color: #fff;
         text-align: center;
-        max-width: 30%;
     }
 
     .content {
@@ -43,43 +42,48 @@
 
 <div class="background-image-container">
     <div class="title-text">
-        Asphalt Fusion Technology <br><br>
+        Asphalt Fusion Technology
+    </div>
+    <div class="subtitle-text">
         More Eco-Friendly & Carbon Friendly
     </div>
+    <a href="#more-info" class="find-out-more-button">Find Out More</a>
 </div>
 
 <style>
     .background-image-container {
-        /* Your styles for the background */
+        /* Existing styles */
         padding-top: 250px;
         padding-bottom: 250px;
-        text-align: center;
-        position: relative; /* for absolute positioning of child elements */
+        position: relative; /* Needed for absolute positioning of children */
+        text-align: center; /* Center the text horizontally */
     }
 
     .title-text {
-        font-size: 48px; /* Adjust the size to match your screenshot */
-        color: #DDDDDD; /* or the exact color from the screenshot */
-        margin-bottom: 20px; /* Spacing between title and subtitle */
-        /* Additional font properties like font-family, weight, etc., can be added here */
+        font-size: 48px; /* Example size, adjust as needed */
+        font-weight: bold;
+        color: white; /* Assuming white text */
+        margin: 0; /* Remove default margins */
+        /* Additional styling may be required depending on the font */
     }
 
     .subtitle-text {
-        font-size: 24px; /* Adjust the size to match your screenshot */
-        color: #FFFFFF; /* or the exact color from the screenshot */
-        margin-bottom: 30px; /* Spacing between subtitle and button */
-        /* Additional font properties like font-family, weight, etc., can be added here */
+        font-size: 24px; /* Smaller font size for the subtitle */
+        color: white;
+        margin-top: 20px; /* Space between title and subtitle */
+        /* Same considerations for font style as the title */
     }
 
     .find-out-more-button {
-        background-color: #FF0000; /* Adjust color to match your screenshot */
-        color: #FFFFFF; /* Button text color */
-        padding: 12px 24px; /* Button padding, adjust as needed */
-        font-size: 18px; /* Adjust the size to match your screenshot */
-        text-decoration: none; /* Remove underline from links */
-        border: none; /* Remove border */
-        cursor: pointer; /* Cursor to pointer to signify it's a clickable button */
-        /* Add any additional button styling like border-radius or box-shadow if needed */
+        display: inline-block; /* Make the link a block-level element */
+        margin-top: 30px; /* Space between subtitle and button */
+        padding: 10px 20px; /* Button padding */
+        background-color: red; /* Red background */
+        color: white; /* White text */
+        text-decoration: none; /* No underline */
+        font-size: 20px; /* Font size for the button text */
+        border: none;
+        cursor: pointer;
     }
 </style>
 

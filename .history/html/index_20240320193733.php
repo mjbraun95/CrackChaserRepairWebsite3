@@ -19,9 +19,8 @@
 
     .title-text {
         font-size: 2em;
-        color: #ddd;
+        color: #fff;
         text-align: center;
-        max-width: 30%;
     }
 
     .content {
@@ -42,10 +41,14 @@
 </style>
 
 <div class="background-image-container">
-    <div class="title-text">
-        Asphalt Fusion Technology <br><br>
-        More Eco-Friendly & Carbon Friendly
-    </div>
+
+    <div class="title-text">Asphalt Fusion Technology <br>
+    More Eco-Friendly & Carbon Friendly
+</div>
+
+    <div class="subtitle-text">More Eco-Friendly & Carbon Friendly</div>
+    
+    <a href="#more-info" class="find-out-more-button">Find Out More</a>
 </div>
 
 <style>
@@ -59,7 +62,7 @@
 
     .title-text {
         font-size: 48px; /* Adjust the size to match your screenshot */
-        color: #DDDDDD; /* or the exact color from the screenshot */
+        color: #FFFFFF; /* or the exact color from the screenshot */
         margin-bottom: 20px; /* Spacing between title and subtitle */
         /* Additional font properties like font-family, weight, etc., can be added here */
     }

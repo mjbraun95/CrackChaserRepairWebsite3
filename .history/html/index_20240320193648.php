@@ -19,9 +19,8 @@
 
     .title-text {
         font-size: 2em;
-        color: #ddd;
+        color: #fff;
         text-align: center;
-        max-width: 30%;
     }
 
     .content {
@@ -41,12 +40,27 @@
     }
 </style>
 
-<div class="background-image-container">
-    <div class="title-text">
-        Asphalt Fusion Technology <br><br>
-        More Eco-Friendly & Carbon Friendly
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Vertical Separation</title>
+<style>
+  /* Ensure anchor behaves like block-level elements */
+  .find-out-more-button {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="title-text">Asphalt Fusion Technology</div>
+<div class="subtitle-text">More Eco-Friendly & Carbon Friendly</div>
+<a href="#more-info" class="find-out-more-button">Find Out More</a>
+
+</body>
+</html>
 
 <style>
     .background-image-container {
@@ -59,7 +73,7 @@
 
     .title-text {
         font-size: 48px; /* Adjust the size to match your screenshot */
-        color: #DDDDDD; /* or the exact color from the screenshot */
+        color: #FFFFFF; /* or the exact color from the screenshot */
         margin-bottom: 20px; /* Spacing between title and subtitle */
         /* Additional font properties like font-family, weight, etc., can be added here */
     }

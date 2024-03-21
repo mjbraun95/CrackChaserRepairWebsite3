@@ -97,7 +97,7 @@ div#navbar a.active {
     margin: auto;
  }
 
-/* #SLIDE_BG {
+#SLIDE_BG {
     width: 100%;
     height: auto;
     overflow:auto;
@@ -129,7 +129,7 @@ div#navbar a.active {
     100% {
         background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
     }
-} */
+}
 
 
 
