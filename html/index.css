@@ -1168,9 +1168,10 @@ p {
 
 /* New styles from index.php */
 .background-image-container {
-    background-image: url('https://www.pavementgroup.com/images/products/uep-1357.jpg');
-    background-size: auto;
-    background-position: center center;
+    background-image: url('./images/index/AsphaltTrailer.jpg');
+    background-size: 80% auto;
+    /* background-size: contain; */
+    background-position: center 23%;
     background-repeat: no-repeat;
     padding-top: 250px;
     padding-bottom: 250px;

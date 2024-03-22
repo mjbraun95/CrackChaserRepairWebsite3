@@ -44,20 +44,45 @@
             High-quality epoxy floor coatings for a durable, resilient, and attractive finish.
         </div>
         <div class="service-image">
-            <img src="./images/Backgrounds/Slideshow/Epoxy2.jpg" alt="Epoxy Floor Coatings">
+            <img src="./images/services/EpoxyFloorCoating.jpg" alt="Epoxy Floor Coatings">
         </div>
     </div>
     <!-- Repeat for each service, the CSS will handle the image position alternating -->
     <div class="service-section">
         <div class="service-description">
-            Comprehensive drain repair services to prevent water damage and maintain proper drainage.
+            <!-- Comprehensive drain repair services to prevent water damage and maintain proper drainage. -->
+            Cost-effective repair and maintenance of asphalt roads, parking lots, and drains.
         </div>
         <div class="service-image">
-            <img src="./images/services/drain_repair.jpg" alt="Drain Repair">
+            <img src="./images/services/AsphaltRepair.jpg" alt="Asphalt Repair">
         </div>
     </div>
 
     <!-- Add other services in the same format -->
+    <div class="service-section">
+        <div class="service-description">
+            Concrete Repair.
+        </div>
+        <div class="service-image">
+            <img src="./images/services/ConcreteRepair.jpg" alt="Driveway Coatings">
+        </div>
+    </div>
+    <div class="service-section">
+        <div class="service-description">
+            Driveway coatings.
+        </div>
+        <div class="service-image">
+            <img src="./images/services/DrivewayCoatingAfter.jpg" alt="Driveway Coatings">
+        </div>
+    </div>
+    <div class="service-section">
+        <div class="service-description">
+            Blueskin installation.
+        </div>
+        <div class="service-image">
+            <img src="./images/services/BlueskinInstallation.jpg" alt="Driveway Coatings">
+        </div>
+    </div>
 </div>
 
 </html>
