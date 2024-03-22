@@ -4,96 +4,60 @@
 <?php include('head.php'); ?>
 <?php include('navbar.php'); ?>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-    .responsive {
+    .service-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .service-section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .service-image {
+        flex-basis: 50%;
+        max-width: 50%;
+        text-align: center;
+    }
+
+    .service-image img {
         max-width: 100%;
-        height: auto;
-        object-fit: scale-down;
-        margin: auto;
+        border-radius: 5px;
+    }
+
+    .service-description {
+        flex-basis: 50%;
+        max-width: 50%;
+        font-size: 1.1em;
+        padding: 20px;
     }
 </style>
 
 <div class="content">
-    
-    <p class="fullBox" style="margin: 0 auto;">
-    We repair any cracked, damaged, or old floors, for residential, commercial, and industrial properties, both indoor and outdoor. 
-    We restore, repair, and refinish concrete, as well as asphalt.
-    <!-- We pave, pour, and coat new floors, both indoor and outdoor, for:
-        Residential Properties
-        Commercial Properties
-        Industrial Properties -->
-    <!-- </p> -->
-    <div id="container">
-        <div class="row">
-            <p class="fullBoxBold" style="padding-bottom:0.5vh;">
-                <!-- style="font-size: 16px;"> -->
-                What We Handle
-            </p>
-            <p class="fullBox" style="text-align:center; padding-top:0.5vh;">
-                <!-- style="padding-bottom: 32px; margin: 0 auto;"> -->
-                Trip Hazards <br>
-                Curbs <br>
-                Sidewalks <br>
-                Driveways <br>
-                Ramps <br>
-                Stairs <br>
-                Foundations <br>
-                Epoxy Coatings <br> 
-                <!-- Warehouse Floors <br> -->
-                Parking Lots  <br>
-                Parkades <br>
-                Old Concrete Floors <br>
-                Bollard Installation and Removal <br>
-            </p>
+    <div class="service-section">
+        <div class="service-description">
+            High-quality epoxy floor coatings for a durable, resilient, and attractive finish.
         </div>
-        <div class="row">
-            <!-- <p class="fullBoxBold" style="padding-bottom:0.5vh;">
-                Where We Operate
-            </p>
-            <p class="fullBox" style="text-align:center; padding-top:0.5vh;">
-                Edmonton <br>
-                Sherwood Park <br>
-                St. Albert <br>
-                Leduc <br>
-                Red Deer <br>
-                Spruce Grove <br>
-                Calgary <br>
-            </p> -->
+        <div class="service-image">
+            <img src="./images/Backgrounds/Slideshow/Epoxy2.jpg" alt="Epoxy Floor Coatings">
+        </div>
     </div>
+    <!-- Repeat for each service, the CSS will handle the image position alternating -->
+    <div class="service-section">
+        <div class="service-description">
+            Comprehensive drain repair services to prevent water damage and maintain proper drainage.
+        </div>
+        <div class="service-image">
+            <img src="./images/services/drain_repair.jpg" alt="Drain Repair">
+        </div>
+    </div>
+
+    <!-- Add other services in the same format -->
 </div>
-    <!-- <p class="fullBoxBold" style="font-size: 16px;">
-    What We Handle:
-    </p>
-    <p class="fullBox" style="padding-bottom: 32px; margin: 0 auto;">
-        Trip Hazards <br>
-        Curbs <br>
-        Sidewalks <br>
-        Driveways <br>
-        Ramps <br>
-        Stairs <br>
-        Foundations <br>
-        Warehouse Floors <br>
-        Parking Lots  <br>
-        Parkades <br>
-        Bollard Installation and Removal <br>
-    </p>
-    <p class="fullBoxBold" style="font-size: 16px;">
-    Where We Operate:
-    </p>
-    <p class="fullBox" style="padding-bottom: 32px; margin: 0 auto;">
-        Edmonton <br>
-        Sherwood Park <br>
-        St. Albert <br>
-        Leduc <br>
-        Red Deer <br>
-        Spruce Grove <br>
-        Calgary <br>
-    </p>
-    <p class="fullBox" style="padding-bottom: 32px; margin: 0 auto;">
-    Get a FREE quote here!
-    </p> -->
-</div>
-<!-- </body> -->
+
 </html>

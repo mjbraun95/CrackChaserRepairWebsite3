@@ -45,6 +45,82 @@ body {
     z-index: 1;
 }
 
+#navbar {
+    display: flex;
+    justify-content: space-between; /* Aligns items on the space-between */
+    align-items: center;
+    padding: 0 10px; /* Add padding to navbar */
+    background-color: #000; /* Or any other color you prefer for the navbar background */
+    /* Rest of your styles for navbar */
+}
+
+#navbar .navbar-left,
+#navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .navbar-left {
+    /* Styles for the left side (title) */
+    font-size: 1.5em; /* Adjust as per your need */
+    color: white; /* Adjust as per your need */
+}
+
+#navbar .navbar-right {
+    /* Styles for the right side (menu items) */
+}
+
+#navbar a {
+    color: white; /* Text color for links */
+    padding: 0.75vw 1.5vw; /* Spacing around links */
+    text-decoration: none;
+    /* Rest of your styles for links */
+}
+
+#navbar a:not(:last-child) {
+    margin-right: 10px; /* Adjust the space between the menu items */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto; /* This centers the content */
+}
+
+.left-column, .right-column {
+    width: 48%; /* Adjust the width as needed */
+}
+
+.left-column {
+    /* Add additional styles as needed */
+}
+
+.right-column {
+    /* Add additional styles as needed */
+}
+
+.advantages li {
+    margin-bottom: 10px; /* Adjust the space between list items */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+
+    .find-out-more-button {
+        width: 100%;
+        text-align: center; /* Centers the text on the button */
+    }
+}
+
 div#navbar a {
     /* display: inline;
     height: 100%;
@@ -1088,4 +1164,64 @@ p {
     text-align: left;
     /* float:inline-start; */
     /* float:left; */
+}
+
+/* New styles from index.php */
+.background-image-container {
+    background-image: url('https://www.pavementgroup.com/images/products/uep-1357.jpg');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: auto;
+}
+
+.title-text {
+    font-size: 2em;
+    color: #ddd;
+    text-align: center;
+    max-width: 30%;
+    font-size: 3em; /* Adjust as needed */
+    font-weight: bold; /* Adjust as needed */
+}
+
+.subtitle-text {
+    font-size: 24px; /* Adjust the size to match your screenshot */
+    color: #FFFFFF; /* or the exact color from the screenshot */
+    margin-bottom: 30px; /* Spacing between subtitle and button */
+    /* Additional font properties like font-family, weight, etc., can be added here */
+}
+
+.find-out-more-button {
+    /* Button styles */
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 18px; /* Adjust as needed */
+    display: inline-block; /* Allows padding and margin */
+    border: none; /* Adjust as needed */
+    cursor: pointer; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+}
+
+.fullBox {
+    margin-bottom: 20px;
+}
+
+.fullBoxBold {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }

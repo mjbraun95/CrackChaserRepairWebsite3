@@ -4,42 +4,6 @@
 <?php include('navbar.php'); ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    .background-image-container {
-        background-image: url('https://www.pavementgroup.com/images/products/uep-1357.jpg');
-        background-size: auto; /* Use auto to avoid scaling the image */
-        background-position: center center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 43px; /* Set the height to the actual height of the image */
-        width: auto; /* Set width to auto to maintain aspect ratio */
-    }
-
-    .title-text {
-        font-size: 2em;
-        color: #ddd;
-        text-align: center;
-        max-width: 30%;
-    }
-
-    .content {
-        text-align: center;
-        padding: 50px 20px;
-        margin: auto;
-    }
-
-    .fullBox {
-        margin-bottom: 20px;
-    }
-
-    .fullBoxBold {
-        font-weight: bold;
-        font-size: 1.5em;
-        margin-bottom: 30px;
-    }
-</style>
 
 <div class="background-image-container">
     <div class="title-text">
@@ -48,43 +12,23 @@
     </div>
 </div>
 
-<style>
-    .background-image-container {
-        /* Your styles for the background */
-        padding-top: 250px;
-        padding-bottom: 250px;
-        text-align: center;
-        position: relative; /* for absolute positioning of child elements */
-    }
-
-    .title-text {
-        font-size: 3em; /* Increased font size for title-like appearance */
-        font-weight: bold; /* Make it bold */
-        color: #ddd;
-        text-align: center;
-        max-width: 30%;
-    }
-
-
-    .subtitle-text {
-        font-size: 24px; /* Adjust the size to match your screenshot */
-        color: #FFFFFF; /* or the exact color from the screenshot */
-        margin-bottom: 30px; /* Spacing between subtitle and button */
-        /* Additional font properties like font-family, weight, etc., can be added here */
-    }
-
-    .find-out-more-button {
-        background-color: #FF0000; /* Adjust color to match your screenshot */
-        color: #FFFFFF; /* Button text color */
-        padding: 12px 24px; /* Button padding, adjust as needed */
-        font-size: 18px; /* Adjust the size to match your screenshot */
-        text-decoration: none; /* Remove underline from links */
-        border: none; /* Remove border */
-        cursor: pointer; /* Cursor to pointer to signify it's a clickable button */
-        /* Add any additional button styling like border-radius or box-shadow if needed */
-    }
-</style>
-
+<div class="main-content">
+    <div class="left-column">
+        <h1>Let Us Help You Protect Your Investment in Asphalt Repairs</h1>
+        <ul class="advantages">
+            <li>Infrared Heat Repair Has 3 Major Advantages V.S. Conventional Repair Methods</li>
+            <li>Thermo-Bonding creates a seamless repair between the New & Existing Asphalt (Learn More)</li>
+            <li>Infrared repair is less disturbing to businesses & residence vs industry practices (Learn More)</li>
+            <li>Eco-Friendly Requiring minimal waist removal; less new asphalt; less oils & fuels (Learn More)</li>
+        </ul>
+        <a href="#" class="find-out-more-button">Find Out More</a>
+    </div>
+    <div class="right-column">
+        <h2>Watch our 2 minute video below to learn how Asphalt Infrared Repair works 👇👇👇</h2>
+        <!-- Embed YouTube video here -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zE8fLtVMXzs" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
 
 <div class="content">
     <p class="fullBox">
