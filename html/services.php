@@ -14,7 +14,8 @@
             Ideal for parkades, interior concrete surfaces, and floors.
         </div>
         <div class="service-image">
-            <img src="./images/services/EpoxyFloorCoating.jpg" alt="Epoxy Floor Coatings">
+            <!-- <img src="./images/services/EpoxyFloorCoating.jpg" alt="Epoxy Floor Coatings"> -->
+            <img src="https://i.imgur.com/GYuiYDE.jpeg" alt="Epoxy Floor Coatings">
         </div>
     </div>
     <!-- Repeat for each service, the CSS will handle the image position alternating -->
@@ -23,7 +24,8 @@
             Asphalt infrared repair provides a superior, eco-friendly, and very cost-effective option for rejuvenating and maintaining roads, drains, and parking areas. This innovative technique is not only more economical than complete repaving but also excels in extending the lifespan of existing surfaces through targeted resurfacing.
         </div>
         <div class="service-image">
-            <img src="./images/services/AsphaltRepair.jpg" alt="Asphalt Repair">
+            <!-- <img src="./images/services/AsphaltRepair.jpg" alt="Asphalt Repair"> -->
+            <img src="https://i.imgur.com/f79CrXD.jpeg" alt="Asphalt Repair">
         </div>
     </div>
     <!-- Add other services in the same format -->
@@ -32,7 +34,8 @@
             Complete driveway/sidewalk/curb restoration featuring crack repair and concrete pouring to enhance curb appeal and durability.
         </div>
         <div class="service-image">
-            <img src="./images/services/ConcreteRepair.jpg" alt="Driveway Coatings">
+            <!-- <img src="./images/services/ConcreteRepair.jpg" alt="Driveway Coatings"> -->
+            <img src="https://i.imgur.com/5JTR1t7.jpeg" alt="Driveway Coatings">
         </div>
     </div>
     <div class="service-section">
@@ -40,7 +43,8 @@
             Specialized driveway coating application providing a sleek finish and long-term protection against the elements.
         </div>
         <div class="service-image">
-            <img src="./images/services/DrivewayCoatingAfter.jpg" alt="Driveway Coatings">
+            <!-- <img src="./images/services/DrivewayCoatingAfter.jpg" alt="Driveway Coatings"> -->
+            <img src="https://i.imgur.com/sWDyJli.jpeg" alt="Driveway Coatings">
         </div>
     </div>
     <div class="service-section">
@@ -48,7 +52,8 @@
             Professional foundation waterproofing using Blueskin technology to prevent water ingress and protect structural integrity.
         </div>
         <div class="service-image">
-            <img src="./images/services/BlueskinInstallation.jpg" alt="Driveway Coatings">
+            <!-- <img src="./images/services/BlueskinInstallation.jpg" alt="Driveway Coatings"> -->
+            <img src="https://i.imgur.com/pR2gjM6.jpeg" alt="Driveway Coatings">
         </div>
     </div>
 </div>

@@ -170,7 +170,8 @@ div#navbar .navbar-title {
 }
 /* New styles from index.php */
 .background-image-container {
-    background: url('./images/index/AsphaltTrailer.jpg') no-repeat center 30%;
+    /* background: url('./images/index/AsphaltTrailer.jpg') no-repeat center 30%; */
+    background: url('https://i.imgur.com/ohSSi7l.jpeg') no-repeat center 30%;
     background-size: 70% auto;
     margin-top:43px;
     margin-bottom:0px;
