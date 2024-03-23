@@ -86,13 +86,28 @@ div#navbar .navbar-title {
 }
 
 
-
+/* page content */
+.content {
+    padding: 20px;
+    max-width: 80%;
+    width: 80%;
+    overflow: auto;
+    height:100%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(255, 255, 255, 0.5);
+}
 .main-content {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     max-width: 1200px; /* Adjust the width as needed */
     margin: 0 auto; /* This centers the content */
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(255, 255, 255, 0.5);
 }
 .left-column, .right-column {
     width: 48%; /* Adjust the width as needed */
@@ -152,19 +167,6 @@ div#navbar .navbar-title {
     border: none; /* Adjust as needed */
     cursor: pointer; /* Adjust as needed */
     margin-top: 20px; /* Adjust as needed */
-}
-/* page content */
-.content {
-    padding: 20px;
-    max-width: 80%;
-    width: 80%;
-    overflow: auto;
-    height:100%;
-    margin: auto;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: rgba(255, 255, 255, 0.5);
 }
 /* New styles from index.php */
 .background-image-container {
