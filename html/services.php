@@ -6,42 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-    .service-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-
-    .service-section:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-
-    .service-image {
-        flex-basis: 50%;
-        max-width: 50%;
-        text-align: center;
-    }
-
-    .service-image img {
-        max-width: 100%;
-        border-radius: 5px;
-    }
-
-    .service-description {
-        flex-basis: 50%;
-        max-width: 50%;
-        font-size: 1.1em;
-        padding: 20px;
-    }
-</style>
-
 <div class="content">
     <div class="service-section">
         <div class="service-description">
-            High-quality epoxy floor coatings for a durable, resilient, and attractive finish.
+            High-quality epoxy floor coatings for a durable, resilient, long-lasting, and aesthetically pleasing finish.
+            Premium epoxy floor coatings deliver an aesthetically pleasing, glossy finish that enhances the beauty of any space. 
+            Ideal for parkades, interior concrete surfaces, and floors.
         </div>
         <div class="service-image">
             <img src="./images/services/EpoxyFloorCoating.jpg" alt="Epoxy Floor Coatings">
@@ -50,18 +20,16 @@
     <!-- Repeat for each service, the CSS will handle the image position alternating -->
     <div class="service-section">
         <div class="service-description">
-            <!-- Comprehensive drain repair services to prevent water damage and maintain proper drainage. -->
-            Cost-effective repair and maintenance of asphalt roads, parking lots, and drains.
+            Asphalt infrared repair provides a superior, eco-friendly, and very cost-effective option for rejuvenating and maintaining roads, drains, and parking areas. This innovative technique is not only more economical than complete repaving but also excels in extending the lifespan of existing surfaces through targeted resurfacing.
         </div>
         <div class="service-image">
             <img src="./images/services/AsphaltRepair.jpg" alt="Asphalt Repair">
         </div>
     </div>
-
     <!-- Add other services in the same format -->
     <div class="service-section">
         <div class="service-description">
-            Concrete Repair.
+            Complete driveway/sidewalk/curb restoration featuring crack repair and concrete pouring to enhance curb appeal and durability.
         </div>
         <div class="service-image">
             <img src="./images/services/ConcreteRepair.jpg" alt="Driveway Coatings">
@@ -69,7 +37,7 @@
     </div>
     <div class="service-section">
         <div class="service-description">
-            Driveway coatings.
+            Specialized driveway coating application providing a sleek finish and long-term protection against the elements.
         </div>
         <div class="service-image">
             <img src="./images/services/DrivewayCoatingAfter.jpg" alt="Driveway Coatings">
@@ -77,7 +45,7 @@
     </div>
     <div class="service-section">
         <div class="service-description">
-            Blueskin installation.
+            Professional foundation waterproofing using Blueskin technology to prevent water ingress and protect structural integrity.
         </div>
         <div class="service-image">
             <img src="./images/services/BlueskinInstallation.jpg" alt="Driveway Coatings">

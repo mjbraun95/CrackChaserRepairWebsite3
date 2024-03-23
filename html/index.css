@@ -85,6 +85,8 @@ div#navbar .navbar-title {
     padding: 0.75vw 1.5vw;
 }
 
+
+
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -197,6 +199,35 @@ div#navbar .navbar-title {
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+.service-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.service-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.service-image {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+.service-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.service-description {
+    flex-basis: 50%;
+    max-width: 50%;
+    font-size: 1.1em;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
 #navbar {
     display: flex;
     justify-content: space-between; /* Aligns items on the space-between */
@@ -262,10 +293,24 @@ div#navbar .navbar-title {
     p {
         font-size: 36px;
     }
+    .service-description {
+        font-size: 2.8em;
+    }
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
     a {
         font-size: 36px;
+    }
+    .service-description {
+        font-size: 2.1em;
+    }
+}
+@media screen and (min-width: 1249px) and (max-width: 1366px) {
+    a {
+        font-size: 36px;
+    }
+    .service-description {
+        font-size: 1.8em;
     }
 }
 @media screen and (max-width: 1248px) {
@@ -280,10 +325,16 @@ div#navbar .navbar-title {
         text-align: center; /* Centers the text on the button */
         align-content: center; /* Centers the text on the button */
     }
+    .service-description {
+        font-size: 1.5em;
+    }
 }
 @media screen and (max-width: 846px) {
     #navbar .navbar-right {
         font-size: 1em;
+    }
+    .service-description {
+        font-size: 1.2em;
     }
 }
 @media screen and (max-width: 768px) {
@@ -303,6 +354,9 @@ div#navbar .navbar-title {
         padding-bottom: 10vh;
         background-size: contain;
     }
+    .service-description {
+        font-size: 1.0em;
+    }
 }
 @media screen and (max-width: 600px) {
     iframe {
@@ -313,6 +367,9 @@ div#navbar .navbar-title {
 @media screen and (max-width: 580px) {
     #navbar .navbar-right {
         font-size: 0.5em;
+    }
+    .service-description {
+        font-size: 0.8em;
     }
 }
 @media screen and (max-width: 480px) {
@@ -331,6 +388,9 @@ div#navbar .navbar-title {
     .iframe {
         width: 80%;
         height: 80%;
+    }
+    .service-description {
+        font-size: 0.5em;
     }
 }
 @media screen and (max-width: 442px) {
