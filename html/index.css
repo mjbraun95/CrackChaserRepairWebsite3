@@ -1,12 +1,14 @@
 
-
+/* Ensure the body takes the full viewport width and the content is properly aligned */
 body {
     margin: 0;
     /* font-size: 28px; */
     font-family: "system-ui"; 
     /* vertical-align: center; */
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.87);
     /* padding-bottom: 0px;  */
+    overflow-x: hidden;
+
 }
 
 div.header{
@@ -38,13 +40,6 @@ div.header{
     }
 }
 
-header {
-}
-
-body {
-    z-index: 1;
-}
-
 #navbar {
     display: flex;
     justify-content: space-between; /* Aligns items on the space-between */
@@ -68,6 +63,24 @@ body {
 
 #navbar .navbar-right {
     /* Styles for the right side (menu items) */
+    font-size: 1.5em; /* Adjust as per your need */
+}
+
+/* Responsive adjustments */
+@media (max-width: 846px) {
+    #navbar .navbar-right {
+        font-size: 1em;
+    }
+}
+@media (max-width: 580px) {
+    #navbar .navbar-right {
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 442px) {
+    #navbar .navbar-left {
+        font-size: 1em;
+    }
 }
 
 #navbar a {
@@ -1216,13 +1229,7 @@ p {
 
 
 
-/* Ensure the body takes the full viewport width and the content is properly aligned */
-body {
-    margin: 0;
-    font-family: "system-ui";
-    background: rgba(0, 0, 0, 0.7);
-    overflow-x: hidden;
-}
+
 
 /* Styles for the header, adjusting the background image */
 div.header {
@@ -1291,7 +1298,7 @@ div.header {
     /* Reduce the font size for navbar links on smaller screens */
     div#navbar a {
         padding: 10px; /* Smaller padding */
-        font-size: 4vw; /* Larger relative font size for better readability */
+        font-size: 1em;
     }
 }
 
@@ -1320,11 +1327,16 @@ body, html {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.iframe {
+iframe {
     width: 560px;
     height: 315px;
 }
-
+@media (max-width: 600px) {
+    iframe {
+        width: 280px;
+        height: 167px;
+    }
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .background-image-container {
@@ -1348,7 +1360,7 @@ body, html {
     }
 
     .title-text {
-        font-size: 1.2em;
+        font-size: 0.5em;
     }
     .iframe {
         width: 80%;

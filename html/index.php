@@ -26,7 +26,7 @@
     <div class="right-column">
         <h2>Watch our 2 minute video below to learn how Asphalt Infrared Repair works 👇👇👇</h2>
         <!-- Embed YouTube video here -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zE8fLtVMXzs" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/zE8fLtVMXzs" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
