@@ -1,153 +1,41 @@
-
+/* General body and container adjustments for better alignment */
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 /* Ensure the body takes the full viewport width and the content is properly aligned */
 body {
     margin: 0;
-    /* font-size: 28px; */
+    padding: 0;
+    height: 100%;
     font-family: "system-ui"; 
-    /* vertical-align: center; */
     background-color: rgba(0, 0, 0, 0.87);
-    /* padding-bottom: 0px;  */
     overflow-x: hidden;
-
+    padding-top: 0px;
+    /* font-size: 28px; */
+    /* vertical-align: center; */
+    /* padding-bottom: 0px;  */
 }
-
-div.header{
-    background-image: url('./images/Backgrounds/asphalt2.jpg');
-    background-size: cover;
-    /* background-clip: content-box; */
-    /* box-sizing: content-box; */
-    /* isolation: isolate; */
-    /* height:2vw; */
-    font-weight: bold;
-    border: 0%;
-    margin: 0%;
-    text-align: center;
-    vertical-align: center;
-    font-size: 4vw;
-    color: rgb(253, 254, 255);
-    overflow:auto; 
-    }
-
-@media screen and (min-width: 1920px) {
-    p {
- font-size: 36px;
-    }
+p {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 95%;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 1em;
+    /* padding: 10px; */
 }
-
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
-    a {
- font-size: 36px;
-    }
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
-
-#navbar {
-    display: flex;
-    justify-content: space-between; /* Aligns items on the space-between */
-    align-items: center;
-    padding: 0 10px; /* Add padding to navbar */
-    background-color: #000; /* Or any other color you prefer for the navbar background */
-    /* Rest of your styles for navbar */
-}
-
-#navbar .navbar-left,
-#navbar .navbar-right {
-    display: flex;
-    align-items: center;
-}
-
-#navbar .navbar-left {
-    /* Styles for the left side (title) */
-    font-size: 1.5em; /* Adjust as per your need */
-    color: white; /* Adjust as per your need */
-}
-
-#navbar .navbar-right {
-    /* Styles for the right side (menu items) */
-    font-size: 1.5em; /* Adjust as per your need */
-}
-
-/* Responsive adjustments */
-@media (max-width: 846px) {
-    #navbar .navbar-right {
-        font-size: 1em;
-    }
-}
-@media (max-width: 580px) {
-    #navbar .navbar-right {
-        font-size: 0.5em;
-    }
-}
-@media (max-width: 442px) {
-    #navbar .navbar-left {
-        font-size: 1em;
-    }
-}
-
-#navbar a {
-    color: white; /* Text color for links */
-    padding: 0.75vw 1.5vw; /* Spacing around links */
-    text-decoration: none;
-    /* Rest of your styles for links */
-}
-
-#navbar a:not(:last-child) {
-    margin-right: 10px; /* Adjust the space between the menu items */
-}
-
-.main-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px; /* Adjust the width as needed */
-    margin: 0 auto; /* This centers the content */
-}
-
-.left-column, .right-column {
-    width: 48%; /* Adjust the width as needed */
-}
-
-.left-column {
-    /* Add additional styles as needed */
-}
-
-.right-column {
-    /* Add additional styles as needed */
-}
-
-.advantages li {
-    margin-bottom: 10px; /* Adjust the space between list items */
-}
-
-/* Responsive styles for smaller screens */
-@media (max-width: 1248px) {
-    .main-content {
-        flex-direction: column;
-    }
-
-    .left-column, .right-column {
-        width: 100%;
-    }
-
-    .find-out-more-button {
-        width: 80%;
-        text-align: center; /* Centers the text on the button */
-        align-content: center; /* Centers the text on the button */
-    }
+iframe {
+    width: 560px;
+    height: 315px;
 }
 
 div#navbar a {
-    /* display: inline;
-    height: 100%;
-    font-size:1.8vw;
-    padding: 0px 0.5vw;
-    text-decoration: none;
-    
-    isolation: isolate;
-    transition: .5s;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s; */
     float: left;
     font-weight: bold;
     display: block;
@@ -160,27 +48,27 @@ div#navbar a {
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
-
     transition: .5s;
+    /* display: inline;
+    height: 100%;
+    font-size:1.8vw;
+    padding: 0px 0.5vw;
+    text-decoration: none;
+    isolation: isolate;
+    transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s; */
 }
-
 div#navbar a:hover {
     background-color: #f1f1f1;
     color: black;
 }
-
 div#navbar a.active {
     background-color: #f1f1f1;
     color: black;
 }
-
-#centeredmenu {
-    clear:both;
-    min-width: 220px;
-    margin: auto;
- }
-
-
 div#navbar {
     z-index:2;
     overflow-y:hidden;
@@ -189,7 +77,6 @@ div#navbar {
     justify-content: space-between; /* Space between the items */
     align-items: center; /* Center items vertically */
 }
-
 /* This is new for the title on the right side */
 div#navbar .navbar-title {
     color: white;
@@ -198,888 +85,33 @@ div#navbar .navbar-title {
     padding: 0.75vw 1.5vw;
 }
 
-/* #SLIDE_BG {
-    width: 100%;
-    height: auto;
-    overflow:auto;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBg 18s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
-
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto; /* This centers the content */
 }
-@keyframes slideBg {
-    0% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
-    }
-    20% {
-        background-image: url('./images/Backgrounds/Slideshow/Concrete2.jpg');
-    }
-    40% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy1.jpg');
-    }
-    60% {
-        background-image: url('./images/Backgrounds/Slideshow/Concrete3.jpg');
-    }
-    80% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy3.jpg');
-    }
-    100% {
-        background-image: url('./images/Backgrounds/Slideshow/Epoxy2.jpg');
-    }
-} */
-
-
-
-img {
-    max-width: 100%;
-    max-height: 100%;
+.left-column, .right-column {
+    width: 48%; /* Adjust the width as needed */
 }
-
-.portrait {
-    height: 80px;
-    width: 30px;
+.left-column {
+    /* Add additional styles as needed */
 }
-
-.landscape {
-    height: 30px;
-    width: 80px;
+.right-column {
+    /* Add additional styles as needed */
 }
-
-.square {
-    height: 75px;
-    width: 75px;
+.advantages li {
+    margin-bottom: 10px; /* Adjust the space between list items */
 }
-
-
-
-#SLIDE_BAA1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBaa1 10s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-}
-@keyframes slideBaa1 {
-    0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-}
-
-#SLIDE_BAA2 {
-    /* max-width:100%;
-    max-height:100%; */
-    width: 100%;
-    height: 200vh;
-    background: black;
-    overflow:auto;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBaa2 10s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt2/1.jpg');
-}
-@keyframes slideBaa2 {
-    0% {
-        background-image: url('./images/Slideshows/Asphalt2/1.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Asphalt2/2.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt2/1.jpg');
-    }
-}
-
-#SLIDE_BAC1 {
-    min-width: 100%;
-    max-width: none;
-    height: 100vh;
-    background: black;
-    overflow:auto;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-}
-@keyframes slideBac1 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete2/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-    }
-}
-
-#SLIDE_BAC2 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac2 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-}
-@keyframes slideBac2 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete2/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete2/1.jpg');
-    }
-}
-
-#SLIDE_BAC3 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac3 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete4/1.jpg');
-}
-@keyframes slideBac3 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete4/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete4/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete4/1.jpg');
-    }
-}
-
-#SLIDE_BAC4 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac4 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete5/1.jpg');
-}
-@keyframes slideBac4 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete5/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete5/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete5/1.jpg');
-    }
-}
-
-#SLIDE_BAC5 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac5 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete6/1.jpg');
-}
-@keyframes slideBac5 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete6/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete6/2get3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete6/1.jpg');
-    }
-}
-
-#SLIDE_BAC6 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac6 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete7/1.jpg');
-}
-@keyframes slideBac6 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete7/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Concrete7/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete7/1.jpg');
-    }
-}
-
-#SLIDE_BAC7 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac7 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete8/1.jpg');
-}
-@keyframes slideBac7 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete8/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Concrete8/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Concrete8/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete8/1.jpg');
-    }
-}
-
-#SLIDE_BAC8 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac8 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete9/1.jpg');
-}
-@keyframes slideBac8 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete9/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Concrete9/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Concrete9/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete9/1.jpg');
-    }
-}
-
-#SLIDE_BAC9 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBac9 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Concrete10/1.jpg');
-}
-@keyframes slideBac9 {
-    0% {
-    background-image: url('./images/Slideshows/Concrete10/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Concrete10/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Concrete10/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Concrete10/1.jpg');
-    }
-}
-
-#SLIDE_BACC1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacc1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb1/1.jpg');
-}
-@keyframes slideBacc1 {
-    0% {
-    background-image: url('./images/Slideshows/Curb1/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Curb1/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Curb1/1.jpg');
-    }
-}
-
-#SLIDE_BACC2 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacc2 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb2/1.jpg');
-}
-@keyframes slideBacc2 {
-    0% {
-    background-image: url('./images/Slideshows/Curb2/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Curb2/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Curb2/1.jpg');
-    }
-}
-
-#SLIDE_BACC3 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacc3 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Curb3/1.jpg');
-}
-@keyframes slideBacc3 {
-    0% {
-    background-image: url('./images/Slideshows/Curb3/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Curb3/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Curb3/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Curb3/1.jpg');
-    }
-}
-
-#SLIDE_BACD1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacd1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Driveway1/1.jpg');
-}
-@keyframes slideBacd1 {
-    0% {
-    background-image: url('./images/Slideshows/Driveway1/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Driveway1/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Driveway1/1.jpg');
-    }
-}
-
-#SLIDE_BACDC1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacdc1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
-}
-@keyframes slideBacdc1 {
-    0% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/2v.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/3v.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/DrivewayCrack1/1v.jpg');
-    }
-}
-
-
-/* 6 3 4 3 3 3 3 */
-#SLIDE_BAE1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy1/1.jpg');
-}
-@keyframes slideBae1 {
-    0% {
-        /* background-image: url('./images/Driveway\ Crack\ Before\ After/1v.jpg'); */
-        background-image: url('./images/Slideshows/Epoxy1/1.jpg');
-    }
-    16.6% {
-        background-image: url('./images/Slideshows/Epoxy1/2.jpg');
-    }
-    33.3% {
-        background-image: url('./images/Slideshows/Epoxy1/3.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Epoxy1/4.jpg');
-    }
-    66.6% {
-        background-image: url('./images/Slideshows/Epoxy1/5.jpg');
-    }
-    83.3% {
-        background-image: url('./images/Slideshows/Epoxy1/6.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Epoxy1/1.jpg');
-    }
-}
-
-#SLIDE_BAE2 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBa1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
-}
-@keyframes slideBae2 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Epoxy2/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Epoxy2/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy2/1.jpg');
-    }
-}
-
-#SLIDE_BAE3 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae3 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
-}
-@keyframes slideBae3 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
-    }
-    25% {
-    background-image: url('./images/Slideshows/Epoxy3/2.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/Epoxy3/3.jpg');
-    }
-    75% {
-    background-image: url('./images/Slideshows/Epoxy3/4.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy3/1.jpg');
-    }
-}
-
-#SLIDE_BAE4 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae4 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
-}
-@keyframes slideBae4 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Epoxy4/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Epoxy4/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy4/1.jpg');
-    }
-}
-
-#SLIDE_BAE5 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae5 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
-}
-@keyframes slideBae5 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Epoxy5/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Epoxy5/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy5/1.jpg');
-    }
-}
-
-#SLIDE_BAE6 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae6 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
-}
-@keyframes slideBae6 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Epoxy6/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Epoxy6/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy6/1.jpg');
-    }
-}
-
-#SLIDE_BAE7 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBae7 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
-}
-@keyframes slideBae7 {
-    0% {
-    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
-    }
-    33.3% {
-    background-image: url('./images/Slideshows/Epoxy7/2.jpg');
-    }
-    66.6% {
-    background-image: url('./images/Slideshows/Epoxy7/3.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/Epoxy7/1.jpg');
-    }
-}
-
-#SLIDE_BACD1 {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBacd1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
-}
-@keyframes slideBacd1 {
-    0% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
-    }
-    50% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/2.jpg');
-    }
-    100% {
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
-    }
-}
-
-
-/* #SLIDE_BA5 {
-    width: 100%;
-    rotate: 270;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBa1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/SidewalkCrack1/1.jpg');
-}
-@keyframes slideBa5{
-    0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-}
-
-#SLIDE_BA6 {
-    width: 100%;
-    rotate: 270;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBa1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-}
-
-@keyframes slideBa6{
-    0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-}
-
-#SLIDE_BA7 {
-    width: 100%;
-    rotate: 270;
-    height: 100vh;
-    background: black;
-    overflow:hidden;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBa1 5s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-}
-@keyframes slideBa7 {
-    0% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    50% {
-        background-image: url('./images/Slideshows/Asphalt1/2.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-    100% {
-        background-image: url('./images/Slideshows/Asphalt1/1.jpg');
-    }
-} */
-
-/* page content */
-.content {
-    /* display:flex;
-    justify-content: center; */
-    
-    /* padding: 100px; */
-    padding-top: 0.5vh;
-    padding-bottom: 4vh;
-    max-width: 80%;
-    width: 80%;
-    overflow: auto;
-    height:100%;
-    margin-right:auto;
-    margin-left:auto;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: rgba(255, 255, 255, 0.5);
-}
-
-p {
-    /* padding: 10px; */
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    width: 95%;
-    align-content: center;
-    margin: auto;
-} 
-  
-.fullBoxBold{
-    text-align: center;
-    
-    font-size: 4vw;
-
-    width: 85%;
-    height: auto;
-    font-weight: bold;
-}
-
-.fullBox{
+.fullBox {
     width:85%;
     font-size: 2vw;
     height:auto;
     text-align: left;
+    margin-bottom: 20px;
     /* float:left; */
 }
-
-.emptyBox{
-    width:100%;
-    height:600px;
-    align-content:center;
-    float:left;
-}
-
-
 .responsive {
     max-width: 100%;
     height: auto;
@@ -1088,41 +120,12 @@ p {
     max-height: 100%;
     width: auto;
 }
-
-.half {
-    left: 0%;
-}
-/* 
-.scroller {
-    height: 300px;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-padding: 40px;
-}
-
-.scroller section {
-    scroll-snap-align: start;
-} */
-
 .sticky {
     position: fixed;
     top: 0;
+    padding-top: 0px;
     width: 100%;
 }
-
-.sticky + .content + body {
-    padding-top: 0px;
-}
-
-
-
-/* .rotate {
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    margin-top: 88px;
-} */
-
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column3 {
     float: left;
@@ -1136,24 +139,98 @@ p {
 
     /* transform: rotate(270deg); */
 }
-
-/* Split the screen in half */
-.split {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
+.find-out-more-button {
+    /* Button styles */
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 18px; /* Adjust as needed */
+    display: inline-block; /* Allows padding and margin */
+    border: none; /* Adjust as needed */
+    cursor: pointer; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
 }
-
+/* page content */
+.content {
+    padding: 20px;
+    max-width: 80%;
+    width: 80%;
+    overflow: auto;
+    height:100%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(255, 255, 255, 0.5);
+}
+/* New styles from index.php */
+.background-image-container {
+    background: url('./images/index/AsphaltTrailer.jpg') no-repeat center 30%;
+    background-size: 70% auto;
+    margin-top:43px;
+    margin-bottom:0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust height automatically */
+    width: auto; /* Adjust width automatically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100vw; /* Maximum width as a percentage of the viewport width */
+    max-height: 100vh; /* Maximum height as a percentage of the viewport height */
+    /* margin: 10vh 0px; Center the container vertically with margin */
+}
+/* Title text styles */
+.title-text {
+    text-align: center;
+    max-width: 40vw;
+    font-weight: bold; /* Adjust as needed */
+    font-size: 2em;
+    color: #ddd;
+    margin: auto;
+    padding: 1em 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+#navbar {
+    display: flex;
+    justify-content: space-between; /* Aligns items on the space-between */
+    align-items: center;
+    padding: 0 10px; /* Add padding to navbar */
+    background-color: #000; /* Or any other color you prefer for the navbar background */
+    /* Rest of your styles for navbar */
+}
+#navbar .navbar-left,
+#navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
+#navbar .navbar-left {
+    /* Styles for the left side (title) */
+    font-size: 1.5em; /* Adjust as per your need */
+    color: white; /* Adjust as per your need */
+}
+#navbar .navbar-right {
+    /* Styles for the right side (menu items) */
+    font-size: 1.5em; /* Adjust as per your need */
+}
+#navbar a {
+    color: white; /* Text color for links */
+    padding: 0.75vw 1.5vw; /* Spacing around links */
+    text-decoration: none;
+    /* Rest of your styles for links */
+}
+#navbar a:not(:last-child) {
+    margin-right: 10px; /* Adjust the space between the menu items */
+}
 #container {
     margin: 0 auto;
     width: 100%;
-}
-#container .row {
-    /* Access rows */
 }
 #container .row .col {
     float: left;
@@ -1180,191 +257,84 @@ p {
     /* float:left; */
 }
 
-.title-text {
-    font-size: 2em;
-    color: #ddd;
-    text-align: center;
-    max-width: 40vw;
-    font-size: 3em; /* Adjust as needed */
-    font-weight: bold; /* Adjust as needed */
+/* Responsive styles for smaller screens */
+@media screen and (min-width: 1920px) {
+    p {
+        font-size: 36px;
+    }
 }
-
-.subtitle-text {
-    font-size: 24px; /* Adjust the size to match your screenshot */
-    color: #FFFFFF; /* or the exact color from the screenshot */
-    margin-bottom: 30px; /* Spacing between subtitle and button */
-    /* Additional font properties like font-family, weight, etc., can be added here */
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    a {
+        font-size: 36px;
+    }
 }
-
-.find-out-more-button {
-    /* Button styles */
-    background-color: #FF0000;
-    color: white;
-    text-decoration: none;
-    padding: 12px 24px;
-    font-size: 18px; /* Adjust as needed */
-    display: inline-block; /* Allows padding and margin */
-    border: none; /* Adjust as needed */
-    cursor: pointer; /* Adjust as needed */
-    margin-top: 20px; /* Adjust as needed */
+@media screen and (max-width: 1248px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+    .find-out-more-button {
+        width: 80%;
+        text-align: center; /* Centers the text on the button */
+        align-content: center; /* Centers the text on the button */
+    }
 }
-
-.content {
-    text-align: center;
-    padding: 50px 20px;
-    margin: auto;
+@media screen and (max-width: 846px) {
+    #navbar .navbar-right {
+        font-size: 1em;
+    }
 }
-
-.fullBox {
-    margin-bottom: 20px;
-}
-
-.fullBoxBold {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 30px;
-}
-
-
-
-
-
-
-
-/* Styles for the header, adjusting the background image */
-div.header {
-    background-image: url('./images/Backgrounds/asphalt2.jpg');
-    background-size: cover;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: center;
-    font-size: 4vw; /* Scale the font size according to viewport width */
-    color: rgb(253, 254, 255);
-    overflow: auto; 
-}
-
-/* Content styling for mobile devices */
-.content {
-    padding: 20px;
-    margin: auto;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-/* New styles from index.php */
-.background-image-container {
-    background: url('./images/index/AsphaltTrailer.jpg') no-repeat center 30%;
-    background-size: 70% auto;
-    margin-top:43px;
-    margin-bottom:0px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; /* Adjust height automatically */
-    width: auto; /* Adjust width automatically */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 100vw; /* Maximum width as a percentage of the viewport width */
-    max-height: 100vh; /* Maximum height as a percentage of the viewport height */
-    /* margin: 10vh 0px; Center the container vertically with margin */
-}
-
-/* Title text styles */
-.title-text {
-    font-size: 2em;
-    color: #ddd;
-    margin: auto;
-    padding: 1em 0;
-}
-
-/* Responsive text content */
-.text-content p {
-    margin-bottom: 1em;
-}
-
-/* Media queries for responsive adjustments */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .title-text {
         font-size: 1.5em; /* Smaller font size for smaller screens */
     }
-
-    .text-content p {
+    p {
         font-size: 1em;
     }
-
-    /* Reduce the font size for navbar links on smaller screens */
     div#navbar a {
         padding: 10px; /* Smaller padding */
         font-size: 1em;
     }
-}
-
-@media (max-width: 480px) {
-    .title-text {
-        font-size: 1.2em;
-    }
-
-    .text-content p {
-        font-size: 0.9em;
+    .background-image-container {
+        max-width: 100vw;
+        max-height: 100vh;
+        padding-bottom: 10vh;
+        background-size: contain;
     }
 }
-
-/* General body and container adjustments for better alignment */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-.title-text {
-    font-size: 2em;
-    color: #ddd;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-iframe {
-    width: 560px;
-    height: 315px;
-}
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     iframe {
         width: 280px;
         height: 167px;
     }
 }
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .background-image-container {
-        max-width: 100vw;
-        max-height: 100vh;
-        padding-bottom: 10vh;
-        background-size: contain;
-    }
-
-    .title-text {
-        font-size: 1.5em;
+@media screen and (max-width: 580px) {
+    #navbar .navbar-right {
+        font-size: 0.5em;
     }
 }
-
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .title-text {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 0.9em;
+    }
     .background-image-container {
         max-width: 100vw;
         max-height: 100vh;
         padding-bottom: 10vh;
         background-size: contain;
-    }
-
-    .title-text {
-        font-size: 0.5em;
     }
     .iframe {
         width: 80%;
         height: 80%;
     }
 }
-
+@media screen and (max-width: 442px) {
+    #navbar .navbar-left {
+        font-size: 1em;
+    }
+}
